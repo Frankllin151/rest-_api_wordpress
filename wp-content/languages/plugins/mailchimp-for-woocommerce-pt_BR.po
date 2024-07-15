@@ -1,0 +1,595 @@
+# Translation of Plugins - Mailchimp for WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Mailchimp for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-04 07:46:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Mailchimp for WooCommerce - Stable (latest release)\n"
+
+#: admin/partials/tabs/api-key.php:206
+msgid "Invalid Timezone"
+msgstr "Fuso horário inválido"
+
+#: admin/partials/tabs/api-key.php:205
+msgid "Invalid Phone"
+msgstr "Telefone inválido"
+
+#: admin/partials/tabs/api-key.php:204
+msgid "Invalid Country"
+msgstr "País inválido"
+
+#: admin/partials/tabs/api-key.php:203
+msgid "Invalid Zip"
+msgstr "Código postal Inválido"
+
+#: admin/partials/tabs/api-key.php:202
+msgid "Invalid State"
+msgstr "Estado inválido"
+
+#: admin/partials/tabs/api-key.php:201
+msgid "Invalid City"
+msgstr "Cidade inválida"
+
+#: admin/partials/tabs/api-key.php:200
+msgid "Invalid Address"
+msgstr "Endereço inválido"
+
+#: admin/partials/tabs/api-key.php:193
+msgid "Go Back"
+msgstr "Voltar"
+
+#: admin/partials/tabs/api-key.php:144
+msgid "Phone"
+msgstr "Telefone"
+
+#: admin/partials/tabs/api-key.php:113
+msgid "Zip"
+msgstr "CEP"
+
+#: admin/partials/tabs/api-key.php:95
+msgid "Address Line 2"
+msgstr "Endereço linha 2"
+
+#: admin/partials/tabs/api-key.php:89
+msgid "Address Line 1"
+msgstr "Endereço linha 1"
+
+#: admin/partials/tabs/api-key.php:75
+msgid "Next Step"
+msgstr "Próximo passo"
+
+#: admin/partials/tabs/api-key.php:72
+msgid "Suggested username: "
+msgstr "Nome de usuário sugerido:"
+
+#: admin/partials/tabs/store-info.php:161
+msgid "Select the minimum permission capability to manage Mailchimp for Woocommerce options"
+msgstr "Selecione a funcão mínima necessária para gerenciar as opções do Mailchimp para Woocommerce"
+
+#: admin/partials/tabs/store-info.php:168
+msgid "Administrators Only"
+msgstr "Apenas administradores"
+
+#: admin/partials/tabs/api-key.php:69
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: admin/partials/tabs/store-info.php:173
+msgid "Shop Managers and Administrators"
+msgstr "Gerente da loja e administradores"
+
+#: admin/partials/tabs/api-key.php:196
+msgid "Get Started!"
+msgstr "Iniciar!"
+
+#: admin/partials/tabs/api-key.php:207
+msgid "Connecting..."
+msgstr "Conectando…"
+
+#: admin/partials/tabs/api-key.php:79
+msgid "Invalid Email. Please double check."
+msgstr "E-mail inválido, verifique."
+
+#. translators: %s - Mailchimp legal pages
+#: admin/partials/tabs/api-key.php:178
+msgid "By clicking the \"Get Started!\" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>."
+msgstr "Ao clicar no botão \"Iniciar!\", você criará uma conta no Mailchimp, aceitando os  <a href=%1$s target=_blank>termos de uso</a> e <a href=%2$s target=_blank>política de privacidade do Mailchimp</a>."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1985
+msgid "Leave a Review"
+msgstr "Faça uma avaliação"
+
+#: admin/partials/tabs/store-info.php:160
+msgid "Plugin Permission Level"
+msgstr "Nível de permissão do plugin"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2012
+#: admin/class-mailchimp-woocommerce-admin.php:2048
+msgid "Saved"
+msgstr "Salvo"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2018
+msgid "Error setting communications status"
+msgstr "Erro ao salvar as configurações de comunicação"
+
+#: admin/class-mailchimp-woocommerce-admin.php:536
+msgid "We dectected that this site has the following constants defined, likely at wp-config.php file"
+msgstr "Detectamos que este site tem as seguintes constantes definidas, possivelmente no arquivo wp-config.php"
+
+#: admin/class-mailchimp-woocommerce-admin.php:538
+msgid "These constants are deprecated since Mailchimp for Woocommerce version 2.3. Please refer to the <a href=\"https://github.com/mailchimp/mc-woocommerce/wiki/\">plugin official wiki</a> for further details."
+msgstr "Estas constantes estão obsoletas desde Mailchimp para Woocommerce versão 2.3. Leia o <a href=\"https://github.com/mailchimp/mc-woocommerce/wiki/\">wiki oficial do plugin</a> para maiores detalhes."
+
+#. translators: %s - Plugin review URL.
+#: admin/partials/tabs/store-sync.php:213
+msgid "Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>."
+msgstr "Nosso plugin está ajudando seu negócio online? <a href=%s target=_blank>Deixe-nos uma avaliação ★★★★★!</a>."
+
+#: admin/partials/tabs/api-key.php:22
+msgid "Error, can't login."
+msgstr "Erro. Não foi possível acessar."
+
+#. Plugin Name of the plugin
+#: admin/class-mailchimp-woocommerce-admin.php:178
+#: admin/class-mailchimp-woocommerce-admin.php:211
+msgid "Mailchimp for WooCommerce"
+msgstr "Mailchimp para Woocommerce"
+
+#. Author of the plugin
+#: admin/class-mailchimp-woocommerce-admin.php:179
+#: admin/class-mailchimp-woocommerce-admin.php:195
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:180
+msgid "Sending Feedback"
+msgstr "Enviando Feedback"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:325
+msgid "I want to change the audience associated with this integration."
+msgstr "Gostaria de trocar a audiência associada a esta integração."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:333
+msgid "The order data isn't syncing."
+msgstr "Os dados de Pedidos não estão sincronizando."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:345
+msgid "I was instructed to disconnect by Mailchimp Support."
+msgstr "Fui instruído pelo suporte do Mailchimp a desconectar."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:349
+msgid "I no longer use this integration."
+msgstr "Não utilizo mais esta integração."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:353
+msgid "It's a temporary deactivation."
+msgstr "É uma desativação temporária."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:357
+msgid "Other"
+msgstr "Outros"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:368
+msgid "Quick Feedback"
+msgstr "Feedback rápido"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:369
+msgid "Close"
+msgstr "Fechar"
+
+#: admin/class-mailchimp-woocommerce-admin.php:535
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:377
+msgid "Mailchimp for Woocommerce"
+msgstr "Mailchimp para Woocommerce"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:78
+msgid "MailChimp Shopping Cart Data"
+msgstr "Dados de carrinho de compras do Mailchimp"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:82
+msgid "User ID"
+msgstr "ID do Usuário"
+
+#: includes/class-mailchimp-woocommerce-rest-api.php:199
+#: includes/class-mailchimp-woocommerce-rest-api.php:525
+#: includes/class-mailchimp-woocommerce-rest-api.php:540
+msgid "D, M j, Y g:i A"
+msgstr "l, d\\/m\\/Y H:i"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1294
+#: admin/class-mailchimp-woocommerce-admin.php:1351
+msgid "One or more fields were not updated"
+msgstr "Um ou mais campos não foram atualizados"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1438
+msgid "You must supply your Mailchimp API key to pull the audiences."
+msgstr "É necessário fornecer a sua Mailchimp API Key para recuperar as audiências."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1961
+msgid "Sometimes the sync can take a while, especially on sites with lots of orders and/or products. It is safe to navigate away from this screen while it is running."
+msgstr "Em alguns casos a sincronização pode levar algum tempo, especialmente em sites com muitos pedidos e/ou produtos. É seguro navegar para fora desta página."
+
+#: admin/partials/tabs/newsletter-settings.php:232
+msgid "Message for the opt-in checkbox"
+msgstr "Texto para a caixa de seleção de inclusão"
+
+#: admin/partials/tabs/newsletter-settings.php:317
+msgid "Define the product image size used by abandoned carts, order notifications, and product recommendations."
+msgstr "Defina o tamanho das imagens utilizado em carrinhos de compra abandonados, outras notificações, e recomendações de produtos."
+
+#: admin/partials/tabs/logs.php:67
+msgid "None"
+msgstr "Nenhum"
+
+#: admin/partials/tabs/logs.php:69
+msgid "Standard"
+msgstr "Padrão"
+
+#: admin/partials/tabs/notices.php:37
+msgid "Mailchimp says: Your re-sync has been started!"
+msgstr "Maichimp diz: A ressincronização foi iniciada!"
+
+#: admin/partials/tabs/newsletter-settings.php:125
+msgid "Permission reminder message"
+msgstr "Mensagem de lembrete"
+
+#: admin/partials/tabs/store-sync.php:147
+msgid "Coupons"
+msgstr "Cupons"
+
+#: admin/partials/tabs/store-sync.php:157
+msgid "Products"
+msgstr "Produtos"
+
+#: admin/partials/tabs/store-sync.php:167
+msgid "Orders"
+msgstr "Pedidos"
+
+#: admin/partials/tabs/store-sync.php:181
+msgid "Subscribers"
+msgstr "Inscritos"
+
+#: admin/partials/tabs/store-sync.php:188
+msgid "Transactional"
+msgstr "Transacional"
+
+#: admin/partials/tabs/store-sync.php:195
+msgid "Unsubscribed"
+msgstr "Desinscritos"
+
+#: admin/partials/tabs/store-sync.php:106
+msgid "Account Connected"
+msgstr "Conta conectada"
+
+#: admin/partials/tabs/store-sync.php:109
+msgid "Audience Connected"
+msgstr "Audiência conectada"
+
+#: admin/partials/tabs/store-sync.php:125
+msgid "Initial sync in progress"
+msgstr "Sincronização inicial em progresso"
+
+#: admin/partials/tabs/store-sync.php:130
+msgid "Last Updated:"
+msgstr "Última atualização:"
+
+#: admin/partials/tabs/store-sync.php:135
+msgid "Starting..."
+msgstr "Iniciando…"
+
+#: admin/partials/tabs/store-sync.php:207
+msgid "More Information"
+msgstr "Mais informações"
+
+#: admin/partials/tabs/api-key.php:13
+msgid "Connect your store to Mailchimp"
+msgstr "Conecte sua loja ao Mailchimp"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:222
+msgid "Connect"
+msgstr "Conectar"
+
+#: admin/partials/tabs/api-key.php:19
+msgid "Already connected. You can reconnect with another Mailchimp account if you want."
+msgstr "Já conectado. Você pode reconectar com outra conta Mailchimp se assim desejar."
+
+#: admin/partials/tabs/api-key.php:23
+msgid "Connection in progress"
+msgstr "Conexão em progresso"
+
+#: admin/partials/tabs/store-info.php:37
+msgid "Name"
+msgstr "Nome"
+
+#: admin/partials/tabs/store-info.php:51
+msgid "Street address"
+msgstr "Endereço"
+
+#: admin/partials/tabs/api-key.php:101 admin/partials/tabs/store-info.php:58
+msgid "City"
+msgstr "Cidade"
+
+#: admin/partials/tabs/api-key.php:107 admin/partials/tabs/store-info.php:65
+msgid "State"
+msgstr "Estado"
+
+#: admin/partials/tabs/store-info.php:72
+msgid "Postal Code"
+msgstr "CEP"
+
+#: admin/partials/tabs/api-key.php:119 admin/partials/tabs/store-info.php:79
+msgid "Country"
+msgstr "País"
+
+#: admin/partials/tabs/store-info.php:105
+msgid "Phone Number"
+msgstr "Telefone"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:249
+msgid "Mailchimp says: Please upgrade your PHP version to a minimum of 7.0"
+msgstr "Mailchimp diz: Atualize a versão do PHP para no mínimo 7.0"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:224
+msgid "Overview"
+msgstr "Visão Geral"
+
+#: admin/partials/tabs/newsletter-settings.php:237
+msgid "HTML tags allowed: <a href=\"\" target=\"\" title=\"\"></a> and <br>"
+msgstr "Tags HTML permitidas: <a href=\"\" target=\"\" title=\"\"></a> e <br>"
+
+#: admin/partials/tabs/api-key.php:133 admin/partials/tabs/store-info.php:94
+msgid "Select a Country"
+msgstr "Selecione um país"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:27
+#: includes/class-mailchimp-woocommerce-privacy.php:40
+msgid "MailChimp for WooCommerce"
+msgstr "MailChimp para WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://mailchimp.com"
+msgstr "https://mailchimp.com"
+
+#. Plugin URI of the plugin
+msgid "https://mailchimp.com/connect-your-store/"
+msgstr "https://mailchimp.com/connect-your-store/"
+
+#: bootstrap.php:698
+msgid "The MailChimp For WooCommerce plugin requires the <a href=\"http://wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> plugin to be active!"
+msgstr "O plugin MailChimp para WooCommerce requer que o plugin <a href=\"http://wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> esteja ativo!"
+
+#: admin/class-mailchimp-woocommerce-admin.php:257
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:230
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:293
+msgid "Save all changes"
+msgstr "Salvar todas as alterações"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1959
+msgid "The plugin has started the initial sync with your store, and the process will work in the background automatically."
+msgstr "O plugin iniciou a sincronização inicial com a sua loja, e o processo executará em segundo plano automaticamente."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1248
+msgid "Mailchimp for WooCommerce requires a Store Name to connect your store."
+msgstr "Mailchimp para Woocommerce requer um nome de loja para poder conectar sua loja."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1957
+msgid "Starting the sync process..."
+msgstr "Iniciando a sincronização…"
+
+#: admin/class-mailchimp-woocommerce-admin.php:808
+msgid "Store Disconnect Failed"
+msgstr "Falha ao desconectar da loja"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:147
+msgid "Start sync"
+msgstr "Iniciar sincronização"
+
+#: admin/partials/tabs/notices.php:24
+msgid "Mailchimp says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
+msgstr "Maichimp diz: Ainda não está tudo pronto para iniciar a sincronização de sua loja, verifique as configurações antes de continuar."
+
+#: admin/partials/tabs/notices.php:21
+msgid "Mailchimp says: Sorry you must set up your store before you proceed!"
+msgstr "Maichimp diz: É necessário configurar sua loja antes de continuar!"
+
+#: admin/partials/tabs/notices.php:18
+msgid "Mailchimp says: You must select a marketing audience."
+msgstr "Maichimp diz: É Necessário selecionar uma audiência."
+
+#: admin/partials/tabs/api-key.php:150
+msgid "Timezone"
+msgstr "Fuso horário"
+
+#: admin/partials/tabs/store-info.php:33
+msgid "Store Settings"
+msgstr "Configurações de loja"
+
+#: admin/partials/tabs/newsletter-settings.php:313
+msgid "Product Image Size"
+msgstr "Tamanho da imagem de produto"
+
+#: admin/partials/tabs/newsletter-settings.php:62
+msgid "Select Audience"
+msgstr "Selecione a audiência"
+
+#: admin/partials/tabs/newsletter-settings.php:59
+msgid "Create New Audience"
+msgstr "Criar nova audiência"
+
+#: admin/partials/tabs/newsletter-settings.php:46
+msgid "Audience Settings"
+msgstr "Configurações de audiência"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:329
+msgid "I want to change the site or store connected through this integration."
+msgstr "Gostaria de trocar o site ou loja conectado a esta integração."
+
+#: includes/class-mailchimp-woocommerce-privacy.php:65
+msgid "Email Address"
+msgstr "Endereço de e-mail"
+
+#. Description of the plugin
+msgid "Connects WooCommerce to Mailchimp to sync your store data, send targeted campaigns to your customers, and sell more stuff."
+msgstr "Conecta o Woocommerce ao Mailchimp para sincronizar sua loja, enviar campanhas segmentadas para seus clientes, e vender mais."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1244
+msgid "As part of the Mailchimp Terms of Use, we require a valid phone number for your store."
+msgstr "Como parte dos termos de uso do Mailchimp, é mandatório um número de telefone válido para sua Loja."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:397
+msgid "Skip & Deactivate"
+msgstr "Pular e desativar"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:396
+msgid "Submit & Deactivate"
+msgstr "Enviar e desativar"
+
+#: admin/partials/tabs/newsletter-settings.php:84
+msgid "Audience Defaults"
+msgstr "Padrões de audiência"
+
+#: admin/partials/tabs/newsletter-settings.php:105
+msgid "Store Newsletter"
+msgstr "Newsletter da loja"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:229
+msgid "Logs"
+msgstr "Registros"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1240
+msgid "As part of the Mailchimp Terms of Use, we require a contact email and a physical mailing address."
+msgstr "Como parte dos termos de uso do Mailchimp, são mandatórios um e-mail de contato e um endereço físico de correspondência."
+
+#: admin/partials/tabs/store-sync.php:242
+msgid "Order and customer information will not sync if they contain an Amazon or generic email address."
+msgstr "Dados de Pedidos e Clientes não serão sincronizados se eles contém endereços de e-mail genéricos, ou da Amazon."
+
+#: admin/partials/tabs/notices.php:15
+msgid "Mailchimp says: You must enter in a valid API key."
+msgstr "Maichimp diz: Digite uma API Key válida."
+
+#: admin/partials/tabs/store-info.php:138
+msgid "Select store's locale"
+msgstr "Selecione a localização da loja"
+
+#: admin/partials/tabs/store-info.php:130
+msgid "Locale"
+msgstr "Localização"
+
+#: admin/partials/tabs/store-info.php:132
+msgid "Please apply your locale settings. If you're unsure about these, use the defaults."
+msgstr "Configure a localização. Se estive inseguro com estas informações, deixe o padrão."
+
+#: admin/partials/tabs/store-info.php:111
+msgid "Locale Settings"
+msgstr "Configurações de localização"
+
+#: admin/partials/tabs/api-key.php:63 admin/partials/tabs/store-info.php:44
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/partials/tabs/logs.php:102
+msgid "Delete Log"
+msgstr "Excluir registro"
+
+#: admin/partials/tabs/logs.php:81
+msgid "Recent Logs"
+msgstr "Registros recentes"
+
+#: admin/partials/tabs/logs.php:40 admin/partials/tabs/logs.php:44
+msgid "Logging Preferences"
+msgstr "Preferências de registro"
+
+#: admin/partials/tabs/logs.php:68
+msgid "Debug"
+msgstr "Depurar"
+
+#: admin/partials/tabs/newsletter-settings.php:299
+msgid "Enter a WooCommerce form action"
+msgstr "Digite uma \"action\" de formulário do Woocommerce"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:341
+msgid "I'm trying to troubleshoot the integration."
+msgstr "Estou tentando resolver problemas com a integração."
+
+#: admin/partials/tabs/logs.php:51
+msgid ""
+"Advanced troubleshooting can be conducted with the logging capability turned on.\n"
+"            By default, it’s set to “standard” and you may toggle to either “debug” or “none” as needed.\n"
+"            With standard logging, you can see basic information about the data submission to Mailchimp including any errors.\n"
+"            “Debug” gives a much deeper insight that is useful to share with support if problems arise."
+msgstr ""
+"A resolução de problemas pode ser realizada com os registros ativados.\n"
+"Por padrão, está configurado para “nenhum” e pode ser alternado para “padrão” ou “depurar” de acordo com sua necessidade.\n"
+"Com o registro padrão, são armazenadas informações básicas sobre o envio de dados para o Mailchimp, incluindo os erros.\n"
+"A opção “depurar” exibe informações mais aprofundadas e é útil para compartilhar com o suporte se surgirem problemas."
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: includes/class-mailchimp-woocommerce-privacy.php:12
+msgid "When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=\"%s\">here</a>."
+msgstr "Quando em compras, nós mantemos seu e-mail e o conteúdo do carrinho de compras por até 30 dias em nossos servidores. Este registro é armazenado para popular o conteúdo do seu carrinho de compras se você trocar de dispositivo ou precisa voltar em um outro dia. Leia nossa Política de Privacidade  <a href=\"%s\">aqui</a>."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:337
+msgid "The promo codes aren't showing up."
+msgstr "Os cupons não estão sendo exibidos."
+
+#. translators: %s - plugin name.
+#: admin/class-mailchimp-woocommerce-admin.php:1289
+#: admin/partials/tabs/newsletter-settings.php:132
+msgid "You were subscribed to the newsletter from %s"
+msgstr "Você assinou a newsletter de %s"
+
+#: admin/class-mailchimp-woocommerce-admin.php:130
+#: admin/class-mailchimp-woocommerce-admin.php:1277
+#: admin/partials/tabs/newsletter-settings.php:261
+#: admin/user-profile/mailchimp-user-profile.php:29
+#: includes/class-mailchimp-woocommerce-newsletter.php:53
+#: public/partials/mailchimp-woocommerce-my-account.php:10
+msgid "Subscribe to our newsletter"
+msgstr "Assinar nossa newsletter"
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: admin/partials/tabs/store-sync.php:264
+msgid "By using this plugin, Mailchimp will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
+msgstr "Ao utilizar este plugin, Mailchimp irá processar os dados de clientes, de acordo com a sua <a href=%s target=_blank>Política de privacidade</a>."
+
+#: admin/partials/tabs/logs.php:120
+msgid "There are currently no logs to view."
+msgstr "Nenhum registro disponível para visualização no momento."
+
+#: admin/partials/tabs/newsletter-settings.php:217
+msgid "Visible, checked by default"
+msgstr "Visível, marcada por padrão"
+
+#: admin/partials/tabs/newsletter-settings.php:222
+msgid "Visible, unchecked by default"
+msgstr "Visível, desmarcada por padrão"
+
+#: admin/partials/tabs/newsletter-settings.php:227
+msgid "Hidden, unchecked by default"
+msgstr "Escondida, desmarcada por padrão"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:177
+msgid "Please select an option"
+msgstr "Selecione uma opção"
+
+#. translators: %s - plugin name.
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:376
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr "Se você tiver um momento, nos diga porque você está desativando %s:"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:359
+msgid "Please share the reason"
+msgstr "Compartilhe o motivo"
+
+#: admin/partials/tabs/api-key.php:24
+msgid "Connected! Please wait while loading next step"
+msgstr "Conectado! Aguarde o carregamento do próximo passo"

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(203, 203, 203);
+}
+
+#navigation ul {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+#navigation ul li{
+    list-style: none;
+}
