@@ -69,7 +69,7 @@ $table_prefix = 'wp_config';
 
 define('JWT_AUTH_SECRET_KEY', "2:*?e@?f-H+o1$yu$FL8IY2Paf:d(W!GnO&[w}#^&^:q9s$)j>T4H(ZL:G>A?h}E");
 define('JWT_AUTH_CORS_ENABLE', true);
-
+define('MP_ACCESS_TOKEN', 'TEST-122387057603424-080715-b8dbdded796e37c54b6b56eafdc6a61f-519568344');
 
 /**
  * For developers: WordPress debugging mode.

@@ -1,16 +1,15 @@
+
 <button id="button">click</button>
 <script>
 // usuário 
     const body = {
-       "nome": "Frankllin",
-"email": "frankllinsilva300@gmail.com",
-"endereco": "Travessa Gustavo Júlio de Araújo",
-"cep": "88107-213",
-"id_produto": "60",
-"price_produto": "15.05"
+    "email": "frankllinsilva300@gmail.com", 
+"first_name": "Frankllin", 
+"last_name":"Silva", 
+"cpf":"15156207430"
     }
 document.getElementById("button").addEventListener("click", () =>{
-    fetch("http://localhost:8943/json/create-order-and-process-payment" , {
+    fetch("http://localhost:8943/json/api/payment" , {
         method: 'POST', 
         headers:{
             'Content-Type': 'application/json',

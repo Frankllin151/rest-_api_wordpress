@@ -57,58 +57,64 @@ update_option("large_size_h" , 1000);
 update_option("large_crop" , 1);
 
 
-// Adicionar rota para listar produtos (número de barras, preço)
-add_action('rest_api_init', 'adicionar_rota_listar_produtos');
 
-function adicionar_rota_listar_produtos() {
-    register_rest_route('meu-plugin/v1', '/codigobarra', array(
-        'methods' => WP_REST_Server::CREATABLE, // aqui e create
-        'callback' => 'listar_produtos',
-    ));
-}
+/// sistema de pagamento que funcionar
 
-function listar_produtos($data) {
-    // Array associativo de correspondências: número de barras => novo preço
-    $correspondencias_precos = array(
-        "542818" => "1.00",  // Exemplo de correspondência número de barras => novo preço
-        // Adicionar outras correspondências aqui conforme necessário
+function mp_process_payment($request) {
+    $access_token = MP_ACCESS_TOKEN;
+     // Gerar um UUID para o cabeçalho X-Idempotency-Key
+     $idempotency_key = wp_generate_uuid4(); 
+    $body = array(
+        'transaction_amount' => 100,
+        'description' => 'Descrição do produto',
+        'payment_method_id' => 'pix',
+        'payer' => array(
+            'email' => $request['email'],
+            'first_name' => $request['first_name'],
+            'last_name' => $request['last_name'],
+            'identification' => array(
+                'type' => 'CPF',
+                'number' => $request['cpf']
+            )
+        ),
+        'notification_url' => 'https://0e91-2804-3380-5e01-b300-65a5-cc00-1982-e87f.ngrok-free.app/json/api/payment',
     );
 
     $args = array(
-        'post_type' => 'product',
-        'posts_per_page' => -1,
+        'body'    => json_encode($body),
+        'headers' => array(
+            'Authorization' => 'Bearer ' . $access_token,
+            'Content-Type'  => 'application/json',
+            'X-Idempotency-Key'  => $idempotency_key,
+        ),
     );
 
-    $products = get_posts($args);
+    $response = wp_remote_post('https://api.mercadopago.com/v1/payments', $args);
 
-    $produtos = array();
-    foreach ($products as $product) {
-        $product_data = wc_get_product($product->ID);
-        $sku = $product_data->get_sku();
-        $nome = $product_data->get_name();
-        $preco = $product_data->get_price();
-
-        // Extrair número de barras do título (padrão: grupo de dígitos no final da string)
-        preg_match('/(\d+)$/', preg_replace('/[^0-9]/', '', $nome), $matches);
-        $numero_de_barras = isset($matches[1]) ? $matches[1] : '';
-
-        // Verificar se há correspondência no array de correspondências
-        if (isset($correspondencias_precos[$numero_de_barras])) {
-            $novo_preco = $correspondencias_precos[$numero_de_barras];
-            $product_data->set_price($novo_preco);
-            $product_data->save();
-            $preco = $novo_preco; // Atualiza o preço no array de produtos
-        }
-
-        // Adicionar informações do produto ao array
-        $produtos[] = array(
-            'sku' => $sku,
-            'numero_de_barras' => $numero_de_barras,
-            'titulo' => $nome,
-            'preco' => $preco,
-        );
+    if (is_wp_error($response)) {
+        $error_message = $response->get_error_message();
+        return new WP_REST_Response(array('error' => $error_message), 500);
     }
-
-    return rest_ensure_response($produtos);
+    
+    $body = wp_remote_retrieve_body($response);
+    $data = json_decode($body, true); // Use true para retornar um array associativo
+    
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return new WP_REST_Response(array('error' => 'Erro ao decodificar JSON: ' . json_last_error_msg()), 500);
+    }
+    
+    // Imprime a resposta para depuração
+    error_log(print_r($data, true)); // Verifique o log para ver o conteúdo real
+   
+   
+    
+    return rest_ensure_response($data["point_of_interaction"]["transaction_data"]["ticket_url"]);
 }
 
+add_action('rest_api_init', function () {
+    add_cors_headers();
+    register_rest_route('api', '/payment', array(
+        'methods' => WP_REST_Server::CREATABLE,
+        'callback' => 'mp_process_payment',
+    ));
+});
