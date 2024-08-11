@@ -83,7 +83,7 @@ define('MP_ACCESS_TOKEN', 'TEST-122387057603424-080715-b8dbdded796e37c54b6b56eaf
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -95,6 +95,8 @@ define( 'WP_DEBUG', false );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
